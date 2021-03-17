@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Main} from './Main'
+import Image from './CoatofArms.png'
 
 function History () {
     const [view, setView] = useState('history')
@@ -11,7 +12,7 @@ function History () {
     if(view === 'history') {
     return <div>
         <h3 align="center">ИСТОРИЯ МЕШКОВО</h3>
-<p id="text"><img src="/images/CoatofArms.png" class="leftimg"/> Деревня Мешково располагается на землях, которыми владел род
+<p id="text"><img src={Image} class="leftimg"/> Деревня Мешково располагается на землях, которыми владел род
     Окатия, одного из сподвижников Ивана Калиты. Своё название деревня получила от одного из потомков Окатия, писца
     Григория Мешка Валуева, который упоминается в документах 1519 году. Деревня упоминается в переписных книгах 1627
     года как «Мешково, Нехольцево тож» (с добавлением фамилии одного из более поздних владельцев). В 1701 году в деревне
