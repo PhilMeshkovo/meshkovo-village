@@ -29,7 +29,7 @@ function Main () {
     if(view === 'main') {
 
             return <div id="Buttons" className="center" style={styles}>
-            <button className="btn waves-effect waves-light" onClick={sightClick}  style={{marginRight:20}}>Наши Достопримечательности</button>
+            <button className="btn waves-effect waves-light" onClick={sightClick}  marginBotton='10px'>Наши Достопримечательности</button>
             <button className="btn waves-effect waves-light" onClick={historyClick}>История Мешково</button>
     </div>
     } if(view === 'history') {
