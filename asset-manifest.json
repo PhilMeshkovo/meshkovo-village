@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meshkovo-village/static/css/main.5663f0c8.chunk.css",
+    "main.css": "/meshkovo-village/static/css/main.c5fa6883.chunk.css",
     "main.js": "/meshkovo-village/static/js/main.e82335be.chunk.js",
     "main.js.map": "/meshkovo-village/static/js/main.e82335be.chunk.js.map",
     "runtime-main.js": "/meshkovo-village/static/js/runtime-main.9ddc93d2.js",
@@ -8,7 +8,7 @@
     "static/js/2.2aeb222b.chunk.js": "/meshkovo-village/static/js/2.2aeb222b.chunk.js",
     "static/js/2.2aeb222b.chunk.js.map": "/meshkovo-village/static/js/2.2aeb222b.chunk.js.map",
     "index.html": "/meshkovo-village/index.html",
-    "static/css/main.5663f0c8.chunk.css.map": "/meshkovo-village/static/css/main.5663f0c8.chunk.css.map",
+    "static/css/main.c5fa6883.chunk.css.map": "/meshkovo-village/static/css/main.c5fa6883.chunk.css.map",
     "static/js/2.2aeb222b.chunk.js.LICENSE.txt": "/meshkovo-village/static/js/2.2aeb222b.chunk.js.LICENSE.txt",
     "static/media/pond.a2fb743d.jpg": "/meshkovo-village/static/media/pond.a2fb743d.jpg",
     "static/media/pond3.01aebda9.jpg": "/meshkovo-village/static/media/pond3.01aebda9.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.9ddc93d2.js",
     "static/js/2.2aeb222b.chunk.js",
-    "static/css/main.5663f0c8.chunk.css",
+    "static/css/main.c5fa6883.chunk.css",
     "static/js/main.e82335be.chunk.js"
   ]
 }
