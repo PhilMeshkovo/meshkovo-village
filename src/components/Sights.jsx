@@ -2,6 +2,8 @@ import {React, useState} from 'react'
 import {Main} from './Main'
 import SpringImage from './spring.jpg'
 import PondImage from './pond3.jpg'
+import ForestImage from './forest.jpg'
+import RoadImage from './road.jpg'
 
 function Sights () {
     const [view, setView] = useState('sights')
@@ -12,7 +14,7 @@ function Sights () {
 
     if(view === 'sights') {
     return <div id='sight'>
-        <h3 align="center"><img  src={SpringImage} width="180" height="200" align='left'/> РОДНИК</h3>
+        <h3 align="center"><img  src={SpringImage} width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
 <p ><strong>По легенде, Ф. И. Шаляпин, живший
     неподалеку на даче, во время прогулок приходил сюда за водой. Часть стока родника средней силы выведена в трубу в
     открытом деревянном срубе, часть вытекает из земли. К источнику ведет деревянный настил.
@@ -33,15 +35,14 @@ function Sights () {
     По итогам проведенных исследований было сделано заключение, что вода в Шаляпинском роднике чистая, соответствует
     нормативам для питьевой воды.</strong></p>
 
-<h3 align="center"><img   src={PondImage} width="170" height="200" align='right'/>ПАРК И ПРУДЫ</h3>
-<p><strong>Первые упоминания каскаде прудов в
-    окрестностях ныне существующей деревни Мешково датируется XVII веком. Окрестные земли принадлежали роду Валуевых. В
+<h3 align="center"><img   src={ForestImage} width="170" height="200" align='left'/>ПАРК И ПРУДЫ <img  src={RoadImage} width="180" height="200" align='right'/></h3>
+<p><strong>Первые упоминания каскаде прудов в окрестностях ныне существующей деревни Мешково датируется XVII веком. Окрестные земли принадлежали роду Валуевых. В
     начале XVII в. владельцами Мешково значится дворянский род Бредихиных В усадьбу приезжал и гостил Федор Иванович
     Шаляпин Бывал тут и близкий друг певца — художник Константин Алексеевич Коровин а один из родников в долине реки
     Ликова сегодня носит название Шаляпинским.
     <em> Пройти в лесопарк, к роднику и месту, где располагалась усадьба можно из 3 микрорайона города Московского по
         тропинкам в лес.</em></strong></p>
-        <button className="btn waves-effect waves-light" onClick={onMain}>На главную страницу</button>
+        <button className="btn waves-effect waves-light"  onClick={onMain}>На главную страницу</button>
         </div>
     } if(view === 'main') {
         return <Main />
