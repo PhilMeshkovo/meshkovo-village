@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/meshkovo-village/static/css/main.81c5b5e1.chunk.css",
-    "main.js": "/meshkovo-village/static/js/main.f9fec375.chunk.js",
-    "main.js.map": "/meshkovo-village/static/js/main.f9fec375.chunk.js.map",
+    "main.js": "/meshkovo-village/static/js/main.8cdc7c56.chunk.js",
+    "main.js.map": "/meshkovo-village/static/js/main.8cdc7c56.chunk.js.map",
     "runtime-main.js": "/meshkovo-village/static/js/runtime-main.9ddc93d2.js",
     "runtime-main.js.map": "/meshkovo-village/static/js/runtime-main.9ddc93d2.js.map",
-    "static/js/2.dff26d84.chunk.js": "/meshkovo-village/static/js/2.dff26d84.chunk.js",
-    "static/js/2.dff26d84.chunk.js.map": "/meshkovo-village/static/js/2.dff26d84.chunk.js.map",
+    "static/js/2.f9c460ad.chunk.js": "/meshkovo-village/static/js/2.f9c460ad.chunk.js",
+    "static/js/2.f9c460ad.chunk.js.map": "/meshkovo-village/static/js/2.f9c460ad.chunk.js.map",
     "index.html": "/meshkovo-village/index.html",
     "static/css/main.81c5b5e1.chunk.css.map": "/meshkovo-village/static/css/main.81c5b5e1.chunk.css.map",
-    "static/js/2.dff26d84.chunk.js.LICENSE.txt": "/meshkovo-village/static/js/2.dff26d84.chunk.js.LICENSE.txt",
+    "static/js/2.f9c460ad.chunk.js.LICENSE.txt": "/meshkovo-village/static/js/2.f9c460ad.chunk.js.LICENSE.txt",
     "static/media/forest.a2df88a5.jpg": "/meshkovo-village/static/media/forest.a2df88a5.jpg",
     "static/media/pond.a2fb743d.jpg": "/meshkovo-village/static/media/pond.a2fb743d.jpg",
     "static/media/pond3.01aebda9.jpg": "/meshkovo-village/static/media/pond3.01aebda9.jpg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9ddc93d2.js",
-    "static/js/2.dff26d84.chunk.js",
+    "static/js/2.f9c460ad.chunk.js",
     "static/css/main.81c5b5e1.chunk.css",
-    "static/js/main.f9fec375.chunk.js"
+    "static/js/main.8cdc7c56.chunk.js"
   ]
 }
