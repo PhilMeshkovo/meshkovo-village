@@ -1,11 +1,11 @@
-import React, {ReactDOM ,useEffect, useState} from 'react'
+import React, { useState} from 'react'
 import { Sights } from './Sights'
 import {History} from './History'
 import Image from './pond.jpg'
 
-function Main () {
+const Main = (props) => {
 
-    const [view, setView] = useState('main')
+    const {setView} = props;
 
     const styles = {
             height: 800,
@@ -20,23 +20,17 @@ function Main () {
 
     const sightClick = () => {
         setView('sights')
+        console.log('sightclick ')
     }
 
     const historyClick = () => {
         setView('history')
     }
 
-    if(view === 'main') {
-
             return <div id="Buttons" className="center" style={styles}>
-            <button className="btn waves-effect waves-light" onClick={sightClick}  marginBotton='10px'>Наши Достопримечательности</button>
-            <button className="btn waves-effect waves-light" onClick={historyClick}>История Мешково</button>
+            <button className="btn waves-effect waves-light" onClick={() => sightClick()} >Наши Достопримечательности</button>
+            <button className="btn waves-effect waves-light" onClick={() => historyClick()}>История Мешково</button>
     </div>
-    } if(view === 'history') {
-        return <History />
-    } if(view === 'sights') {
-        return <Sights />
-    }
 }
 
 export {Main}

@@ -5,14 +5,13 @@ import PondImage from './pond3.jpg'
 import ForestImage from './forest.jpg'
 import RoadImage from './road.jpg'
 
-function Sights () {
-    const [view, setView] = useState('sights')
+const Sights = (props) => {
+    const {setView} = props
 
     const onMain = () => {
         setView('main')
     }
 
-    if(view === 'sights') {
     return <div id='sight'>
         <h3 align="center"><img  src={SpringImage} width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
 <p ><strong>По легенде, Ф. И. Шаляпин, живший
@@ -42,11 +41,9 @@ function Sights () {
     Ликова сегодня носит название Шаляпинским.
     <em> Пройти в лесопарк, к роднику и месту, где располагалась усадьба можно из 3 микрорайона города Московского по
         тропинкам в лес.</em></strong></p>
-        <button className="btn waves-effect waves-light"  onClick={onMain}>На главную страницу</button>
+        <button className="btn waves-effect waves-light"  onClick={() => onMain()}>На главную страницу</button>
         </div>
-    } if(view === 'main') {
-        return <Main />
-    }
+    
 }
 
 export {Sights}

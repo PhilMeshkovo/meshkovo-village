@@ -2,14 +2,13 @@ import React, {useState} from 'react'
 import {Main} from './Main'
 import Image from './CoatofArms.png'
 
-function History () {
-    const [view, setView] = useState('history')
+const History = (props) => {
+    const {setView} = props
 
     const onMain = () => {
         setView('main')
     }
 
-    if(view === 'history') {
     return <div>
         
         <h3 align="center"><img src={Image} width='100px' align='left' />ИСТОРИЯ МЕШКОВО</h3>
@@ -44,12 +43,8 @@ function History () {
     С 2012 года — в составе города Москвы.
     К слову, название деревни Мешково произошло от Григория Михайловича Валуева по прозвищу Мешок.</strong></p>
 
-    <button className="btn waves-effect waves-light" onClick={onMain}>На главную страницу</button>
+    <button className="btn waves-effect waves-light" onClick={() => onMain()}>На главную страницу</button>
     </div>
-    }
-    if(view === 'main') {
-        return <Main />
-    }
 }
 
 export {History}
