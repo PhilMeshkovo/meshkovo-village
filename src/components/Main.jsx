@@ -17,19 +17,9 @@ const Main = (props) => {
             padding: 24
         
     }
-
-    const sightClick = () => {
-        setView('sights')
-        console.log('sightclick ')
-    }
-
-    const historyClick = () => {
-        setView('history')
-    }
-
-            return <div id="Buttons" className="center" style={styles}>
-            <button className="btn waves-effect waves-light" onClick={() => sightClick()} >Наши Достопримечательности</button>
-            <button className="btn waves-effect waves-light" onClick={() => historyClick()}>История Мешково</button>
+    return <div id="Buttons" className="center" style={styles}>
+            <button className="btn waves-effect waves-light" onClick={() => setView('sights')} >Наши Достопримечательности</button>
+            <button className="btn waves-effect waves-light" onClick={() => setView('history')}>История Мешково</button>
     </div>
 }
 

@@ -8,10 +8,6 @@ import RoadImage from './road.jpg'
 const Sights = (props) => {
     const {setView} = props
 
-    const onMain = () => {
-        setView('main')
-    }
-
     return <div id='sight'>
         <h3 align="center"><img  src={SpringImage} width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
 <p ><strong>По легенде, Ф. И. Шаляпин, живший
@@ -41,9 +37,8 @@ const Sights = (props) => {
     Ликова сегодня носит название Шаляпинским.
     <em> Пройти в лесопарк, к роднику и месту, где располагалась усадьба можно из 3 микрорайона города Московского по
         тропинкам в лес.</em></strong></p>
-        <button className="btn waves-effect waves-light"  onClick={() => onMain()}>На главную страницу</button>
+        <button className="btn waves-effect waves-light"  onClick={() => setView('main')}>На главную страницу</button>
         </div>
-    
 }
 
 export {Sights}

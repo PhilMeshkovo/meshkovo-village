@@ -5,10 +5,6 @@ import Image from './CoatofArms.png'
 const History = (props) => {
     const {setView} = props
 
-    const onMain = () => {
-        setView('main')
-    }
-
     return <div>
         
         <h3 align="center"><img src={Image} width='100px' align='left' />ИСТОРИЯ МЕШКОВО</h3>
@@ -43,7 +39,7 @@ const History = (props) => {
     С 2012 года — в составе города Москвы.
     К слову, название деревни Мешково произошло от Григория Михайловича Валуева по прозвищу Мешок.</strong></p>
 
-    <button className="btn waves-effect waves-light" onClick={() => onMain()}>На главную страницу</button>
+    <button className="btn waves-effect waves-light" onClick={() => setView('main')}>На главную страницу</button>
     </div>
 }
 
