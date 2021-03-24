@@ -1,6 +1,4 @@
-import React, { useState} from 'react'
-import { Sights } from './Sights'
-import {History} from './History'
+import React from 'react'
 import Image from './pond.jpg'
 
 const Main = (props) => {

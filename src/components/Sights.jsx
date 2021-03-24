@@ -1,5 +1,4 @@
-import {React, useState} from 'react'
-import {Main} from './Main'
+import React from 'react'
 import SpringImage from './spring.jpg'
 import PondImage from './pond3.jpg'
 import ForestImage from './forest.jpg'
