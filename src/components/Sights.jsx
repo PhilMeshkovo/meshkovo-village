@@ -8,7 +8,7 @@ const Sights = (props) => {
     const {setView} = props
 
     return <div id='sight'>
-        <h3 align="center"><img  src={SpringImage} width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
+        <h3 align="center"><img src={SpringImage} alt="Мешковский родник" width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
 <p ><strong>По легенде, Ф. И. Шаляпин, живший
     неподалеку на даче, во время прогулок приходил сюда за водой. Часть стока родника средней силы выведена в трубу в
     открытом деревянном срубе, часть вытекает из земли. К источнику ведет деревянный настил.
@@ -29,7 +29,7 @@ const Sights = (props) => {
     По итогам проведенных исследований было сделано заключение, что вода в Шаляпинском роднике чистая, соответствует
     нормативам для питьевой воды.</strong></p>
 
-<h3 align="center"><img   src={ForestImage} width="170" height="200" align='left'/>ПАРК И ПРУДЫ <img  src={RoadImage} width="180" height="200" align='right'/></h3>
+<h3 align="center"><img src={ForestImage} alt="Мешковский лес" width="170" height="200" align='left'/>ПАРК И ПРУДЫ <img  src={RoadImage} width="180" height="200" align='right'/></h3>
 <p><strong>Первые упоминания каскаде прудов в окрестностях ныне существующей деревни Мешково датируется XVII веком. Окрестные земли принадлежали роду Валуевых. В
     начале XVII в. владельцами Мешково значится дворянский род Бредихиных В усадьбу приезжал и гостил Федор Иванович
     Шаляпин Бывал тут и близкий друг певца — художник Константин Алексеевич Коровин а один из родников в долине реки

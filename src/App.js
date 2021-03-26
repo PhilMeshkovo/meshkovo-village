@@ -15,7 +15,7 @@ const [view, setView] = useState('main')
       {/* {view === 'main' && <Main view={view} setView={(props) => setView(props)}/>}
       {view === 'sights' && <Sights view={view} setView={(props) => setView(props)}/>}
       {view === 'history' && <History view={view} setView={(props) => setView(props)}/>} */}
-      {view === 'main' ? <Main view={view} setView={(props) => setView(props)}/> : view !== 'history' ? 
+      {view === 'main' ? <Main view={view} setView={(props) => setView(props)}/> : view !== 'history' && view === 'sights' ? 
       <Sights view={view} setView={(props) => setView(props)}/> : <History view={view} setView={(props) => setView(props)}/>}
     </div>
   );
