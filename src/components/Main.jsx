@@ -15,7 +15,7 @@ const Main = (props) => {
             padding: 24
         
     }
-    return <div id="Buttons" className="center" style={styles}>
+    return <div id="Buttons" className="center pages" style={styles}>
             <button className="btn waves-effect waves-light" onClick={() => setView('sights')} >Наши Достопримечательности</button>
             <button className="btn waves-effect waves-light" onClick={() => setView('history')}>История Мешково</button>
     </div>

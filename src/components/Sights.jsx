@@ -7,7 +7,7 @@ import RoadImage from './road.jpg'
 const Sights = (props) => {
     const {setView = Function.prototype} = props
 
-    return <div id='sight'>
+    return <div id='sight' className='body pages'>
         <h3 align="center"><img src={SpringImage} alt="Мешковский родник" width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>
 <p ><strong>По легенде, Ф. И. Шаляпин, живший
     неподалеку на даче, во время прогулок приходил сюда за водой. Часть стока родника средней силы выведена в трубу в

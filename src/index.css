@@ -31,3 +31,19 @@ img {
   margin-right: 10px;
 }
 
+.pages {
+  top: 0%;
+  animation: show 500ms ease-in-out;
+}
+
+@keyframes show {
+  from {
+    top: 100%;
+    opacity: 0;
+  }
+  to {
+    top: 0%;
+    opacity: 1;
+  }
+}
+

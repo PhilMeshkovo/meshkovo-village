@@ -4,7 +4,7 @@ import Image from './CoatofArms.png'
 const History = (props) => {
     const {setView = Function.prototype} = props
 
-    return <div>
+    return <div className='body pages'>
         
         <h3 align="center"><img src={Image} alt='Герб ТиНАО' width='100px' align='left' />ИСТОРИЯ МЕШКОВО</h3>
     <p className="content"><strong>  Деревня Мешково располагается на землях, которыми владел род
