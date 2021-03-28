@@ -5,7 +5,7 @@ import ForestImage from './forest.jpg'
 import RoadImage from './road.jpg'
 
 const Sights = (props) => {
-    const {setView} = props
+    const {setView = Function.prototype} = props
 
     return <div id='sight'>
         <h3 align="center"><img src={SpringImage} alt="Мешковский родник" width="180" height="200" align='left'/> РОДНИК <img  src={PondImage} width="180" height="200" align='right'/></h3>

@@ -3,7 +3,7 @@ import Image from './pond.jpg'
 
 const Main = (props) => {
 
-    const {setView} = props;
+    const {setView = Function.prototype} = props;
 
     const styles = {
             height: 800,

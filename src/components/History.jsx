@@ -2,7 +2,7 @@ import React from 'react'
 import Image from './CoatofArms.png'
 
 const History = (props) => {
-    const {setView} = props
+    const {setView = Function.prototype} = props
 
     return <div>
         
