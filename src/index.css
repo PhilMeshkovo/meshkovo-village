@@ -33,7 +33,7 @@ img {
 
 .pages {
   top: 0%;
-  animation: show 500ms ease-in-out;
+  animation: show 700ms ease-in-out;
 }
 
 @keyframes show {
