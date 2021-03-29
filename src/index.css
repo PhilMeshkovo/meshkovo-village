@@ -36,16 +36,22 @@ img {
   animation: show 700ms ease-in-out;
 }
 
+.buttons-main {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: show 700ms ease-in-out;
+}
+
 @keyframes show {
   from {
-    /* top: 100%; */
     opacity: 0;
     transform: translateY(3rem);
   }
   to {
-    /* top: 0%; */
     opacity: 1;
     transform: translateY(0rem);
   }
 }
+  
 

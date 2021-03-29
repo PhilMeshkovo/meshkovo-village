@@ -3,6 +3,7 @@ import {Header} from './layout/Header'
 import {Main} from './components/Main'
 import {Sights} from './components/Sights'
 import {History} from './components/History'
+import {Footer} from './components/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ const [view, setView] = useState('main')
       {view === 'history' && <History view={view} setView={(props) => setView(props)}/>} */}
       {view === 'main' ? <Main view={view} setView={setView}/> : view !== 'history' && view === 'sights' ? 
       <Sights view={view} setView={setView}/> : <History view={view} setView={setView}/>}
+      <Footer />
     </div>
   );
 }

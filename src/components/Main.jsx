@@ -6,15 +6,15 @@ function Main(props) {
         const { setView = Function.prototype } = props;
 
         const styles = {
-                height: 700,
                 backgroundImage: `url(${Image})`,
+                height: 700,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 width: `calc(100vw + 48px)`,
                 margin: -24,
                 padding: 24
         };
-        return <div id="Buttons" className="center pages" style={styles}>
+        return <div id="Buttons" className="center pages" style={styles} >
                 <button className="btn waves-effect waves-light buttons" onClick={() => setView('sights')}>Наши Достопримечательности</button>
                 <button className="btn waves-effect waves-light buttons" onClick={() => setView('history')}>История Мешково</button>
         </div>;
