@@ -6,7 +6,7 @@ function Main(props) {
         const { setView = Function.prototype } = props;
 
         const styles = {
-                height: 550,
+                height: 700,
                 backgroundImage: `url(${Image})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
