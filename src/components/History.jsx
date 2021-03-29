@@ -38,7 +38,7 @@ function History(props) {
         С 2012 года — в составе города Москвы.
     К слову, название деревни Мешково произошло от Григория Михайловича Валуева по прозвищу Мешок.</strong></p>
 
-        <button className="btn waves-effect waves-light" onClick={() => setView('main')}>На главную страницу</button>
+        <button className="btn waves-effect waves-light buttons" onClick={() => setView('main')}>На главную страницу</button>
     </div>
 }
 

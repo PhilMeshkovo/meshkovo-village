@@ -36,7 +36,7 @@ function Sights(props) {
             Ликова сегодня носит название Шаляпинским.
             <em> Пройти в лесопарк, к роднику и месту, где располагалась усадьба можно из 3 микрорайона города Московского по
         тропинкам в лес.</em></strong></p>
-        <button className="btn waves-effect waves-light" onClick={() => setView('main')}>На главную страницу</button>
+        <button className="btn waves-effect waves-light buttons" onClick={() => setView('main')}>На главную страницу</button>
     </div>
 }
 

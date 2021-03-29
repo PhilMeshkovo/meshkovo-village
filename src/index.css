@@ -38,12 +38,14 @@ img {
 
 @keyframes show {
   from {
-    top: 100%;
+    /* top: 100%; */
     opacity: 0;
+    transform: translateY(3rem);
   }
   to {
-    top: 0%;
+    /* top: 0%; */
     opacity: 1;
+    transform: translateY(0rem);
   }
 }
 
