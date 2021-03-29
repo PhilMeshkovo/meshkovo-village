@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meshkovo-village/static/css/main.bbe1fae8.chunk.css",
-    "main.js": "/meshkovo-village/static/js/main.a7e39c9e.chunk.js",
-    "main.js.map": "/meshkovo-village/static/js/main.a7e39c9e.chunk.js.map",
+    "main.js": "/meshkovo-village/static/js/main.173e339a.chunk.js",
+    "main.js.map": "/meshkovo-village/static/js/main.173e339a.chunk.js.map",
     "runtime-main.js": "/meshkovo-village/static/js/runtime-main.9ddc93d2.js",
     "runtime-main.js.map": "/meshkovo-village/static/js/runtime-main.9ddc93d2.js.map",
     "static/js/2.f9c460ad.chunk.js": "/meshkovo-village/static/js/2.f9c460ad.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.9ddc93d2.js",
     "static/js/2.f9c460ad.chunk.js",
     "static/css/main.bbe1fae8.chunk.css",
-    "static/js/main.a7e39c9e.chunk.js"
+    "static/js/main.173e339a.chunk.js"
   ]
 }
