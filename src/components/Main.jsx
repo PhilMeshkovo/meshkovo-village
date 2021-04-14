@@ -1,9 +1,8 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Image from './pond.jpg'
 
-function Main(props) {
-
-        const { setView = Function.prototype } = props;
+function Main() {
 
         const styles = {
                 backgroundImage: `url(${Image})`,
@@ -15,8 +14,8 @@ function Main(props) {
                 padding: 24
         };
         return <div id="Buttons" className="center pages" style={styles} >
-                <button className="btn waves-effect waves-light buttons" onClick={() => setView('sights')}>Наши Достопримечательности</button>
-                <button className="btn waves-effect waves-light buttons" onClick={() => setView('history')}>История Мешково</button>
+                 <Link className="btn waves-effect waves-light buttons" to="/sights">Наши Достопримечательности</Link>
+                <Link className="btn waves-effect waves-light buttons" to="/history">История Мешково</Link>
         </div>;
 }
 

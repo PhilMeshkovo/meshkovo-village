@@ -1,14 +1,13 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import SpringImage from './spring.jpg'
 import PondImage from './pond3.jpg'
 import ForestImage from './forest.jpg'
 import RoadImage from './road.jpg'
 
-function Sights(props) {
-    const { setView = Function.prototype } = props
-
+function Sights() {
     return <div id='sight' className='body pages'>
-        <h3 align="center"><img src={SpringImage} alt="Мешковский родник" width="180" height="200" align='left' /> РОДНИК <img src={PondImage} width="180" height="200" align='right' /></h3>
+        <h3 align="center"><img className="materialboxed" src={SpringImage} alt="Мешковский родник" width="180" height="200" align='left' /> РОДНИК <img className="materialboxed" src={PondImage} alt="Pond" width="180" height="200" align='right' /></h3>
         <p><strong>По легенде, Ф. И. Шаляпин, живший
         неподалеку на даче, во время прогулок приходил сюда за водой. Часть стока родника средней силы выведена в трубу в
         открытом деревянном срубе, часть вытекает из земли. К источнику ведет деревянный настил.
@@ -29,14 +28,14 @@ function Sights(props) {
         По итогам проведенных исследований было сделано заключение, что вода в Шаляпинском роднике чистая, соответствует
     нормативам для питьевой воды.</strong></p>
 
-        <h3 align="center"><img src={ForestImage} alt="Мешковский лес" width="170" height="200" align='left' />ПАРК И ПРУДЫ <img src={RoadImage} alt='Зимняя дороша' width="180" height="200" align='right' /></h3>
+        <h3 align="center"><img className="materialboxed" src={ForestImage} alt="Мешковский лес" width="170" height="200" align='left' />ПАРК И ПРУДЫ <img className="materialboxed" src={RoadImage} alt='Зимняя дороша' width="180" height="200" align='right' /></h3>
         <p><strong>Первые упоминания каскаде прудов в окрестностях ныне существующей деревни Мешково датируется XVII веком.Окрестные земли принадлежали роду Валуевых.В
                 начале XVII в.владельцами Мешково значится дворянский род Бредихиных В усадьбу приезжал и гостил Федор Ивано        
             Шаляпин Бывал тут и близкий друг певца — художник Константин Алексеевич Коровин а один из родников в долине реки
             Ликова сегодня носит название Шаляпинским.
             <em> Пройти в лесопарк, к роднику и месту, где располагалась усадьба можно из 3 микрорайона города Московского по
         тропинкам в лес.</em></strong></p>
-        <button className="btn waves-effect waves-light buttons-main" onClick={() => setView('main')}>На главную страницу</button>
+        <Link className="btn waves-effect waves-light buttons-main" to="/">На главную страницу</Link>
     </div>
 }
 

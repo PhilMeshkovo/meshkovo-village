@@ -1,12 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Image from './CoatofArms.png'
 
-function History(props) {
-    const { setView = Function.prototype } = props
+function History() {
 
     return <div className='body pages'>
 
-        <h3 align="center"><img src={Image} alt='Герб ТиНАО' width='100px' align='left' />ИСТОРИЯ МЕШКОВО</h3>
+        <h3 align="center"><img className="materialboxed" src={Image} alt='Герб ТиНАО' width='100px' align='left' />ИСТОРИЯ МЕШКОВО</h3>
         <p className="content"><strong>  Деревня Мешково располагается на землях, которыми владел род
         Окатия, одного из сподвижников Ивана Калиты. Своё название деревня получила от одного из потомков Окатия, писца
         Григория Мешка Валуева, который упоминается в документах 1519 году. Деревня упоминается в переписных книгах 1627
@@ -38,7 +38,7 @@ function History(props) {
         С 2012 года — в составе города Москвы.
     К слову, название деревни Мешково произошло от Григория Михайловича Валуева по прозвищу Мешок.</strong></p>
 
-        <button className="btn waves-effect waves-light buttons-main" onClick={() => setView('main')}>На главную страницу</button>
+         <Link className="btn waves-effect waves-light buttons-main" to="/">На главную страницу</Link>
     </div>
 }
 

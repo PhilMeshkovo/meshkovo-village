@@ -1,23 +1,28 @@
-import React,{useState} from 'react'
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import {Header} from './layout/Header'
 import {Main} from './components/Main'
 import {Sights} from './components/Sights'
 import {History} from './components/History'
-import {Footer} from './components/Footer'
+import {Footer} from './layout/Footer'
 
 
 function App() {
-const [view, setView] = useState('main')
 
   return (
     <div className="App">
       <Header />
       <br/>
-      {/* {view === 'main' && <Main view={view} setView={(props) => setView(props)}/>}
-      {view === 'sights' && <Sights view={view} setView={(props) => setView(props)}/>}
-      {view === 'history' && <History view={view} setView={(props) => setView(props)}/>} */}
-      {view === 'main' ? <Main view={view} setView={setView}/> : view !== 'history' && view === 'sights' ? 
-      <Sights view={view} setView={setView}/> : <History view={view} setView={setView}/>}
+      <Router basename="/meshkovo-village">
+      <Switch>
+            <Route exact path="/" component={Main}/>
+            <Route path="/sights" component={Sights}/>
+            <Route path="/history" component={History}/>
+      </Switch>
+
+      </Router>
+
+
       <Footer />
     </div>
   );
