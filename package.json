@@ -2,7 +2,7 @@
   "name": "meshkovo-village",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PhilMeshkovo.github.io/meshkovo-village",
+  "homepage": "https://PhilMeshkovo1977.github.io/meshkovo-village",
   "dependencies": {
     "@react-native-clipboard/clipboard": "github:react-native-community/clipboard",
     "@testing-library/jest-dom": "^5.11.9",
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
