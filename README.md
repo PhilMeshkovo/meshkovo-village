@@ -1,3 +1,3 @@
 # Meshkovo Village
 
-[Meshkovo-village Demo](https://philmeshkovo1977.github.io/meshkovo-village/)
+[Meshkovo-village Demo](https://philmeshkovo.github.io/meshkovo-village/)
