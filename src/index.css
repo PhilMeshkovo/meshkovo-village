@@ -25,6 +25,12 @@ img {
   margin: 10px;
 }
 
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .buttons {
   top: 0%;
   animation: show 700ms ease-in-out;
