@@ -6,7 +6,7 @@ function Main() {
 
         const styles = {
                 backgroundImage: `url(${Image})`,
-                height: 700,
+                height: 800,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 width: `calc(100vw + 48px)`,

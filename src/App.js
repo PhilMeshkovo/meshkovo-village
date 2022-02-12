@@ -10,7 +10,7 @@ import {Footer} from './layout/Footer'
 function App() {
 
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <br/>
       <Router basename="/meshkovo-village">
