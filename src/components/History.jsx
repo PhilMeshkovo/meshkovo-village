@@ -54,6 +54,11 @@ function History() {
 
             С 2012 года — в составе города Москвы.
             К слову, название деревни Мешково произошло от Григория Михайловича Валуева по прозвищу Мешок.</strong></p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
         <Link className="btn waves-effect waves-light buttons-main" to="/">На главную страницу</Link>
     </div>
